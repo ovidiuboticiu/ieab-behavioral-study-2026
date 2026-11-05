@@ -1,0 +1,222 @@
+{
+  "version": "v0.4.1",
+  "algorithm": "q, q XOR 7, q XOR 1",
+  "rows": [
+    {
+      "item_id": "I01",
+      "r": "0.60",
+      "code": 0,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I01",
+      "r": "0.65",
+      "code": 7,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I01",
+      "r": "0.70",
+      "code": 1,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I02",
+      "r": "0.60",
+      "code": 1,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I02",
+      "r": "0.65",
+      "code": 6,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I02",
+      "r": "0.70",
+      "code": 0,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I03",
+      "r": "0.60",
+      "code": 2,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I03",
+      "r": "0.65",
+      "code": 5,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I03",
+      "r": "0.70",
+      "code": 3,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I04",
+      "r": "0.60",
+      "code": 3,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I04",
+      "r": "0.65",
+      "code": 4,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I04",
+      "r": "0.70",
+      "code": 2,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I05",
+      "r": "0.60",
+      "code": 4,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I05",
+      "r": "0.65",
+      "code": 3,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I05",
+      "r": "0.70",
+      "code": 5,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I06",
+      "r": "0.60",
+      "code": 5,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I06",
+      "r": "0.65",
+      "code": 2,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I06",
+      "r": "0.70",
+      "code": 4,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I07",
+      "r": "0.60",
+      "code": 6,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I07",
+      "r": "0.65",
+      "code": 1,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_Y"
+    },
+    {
+      "item_id": "I07",
+      "r": "0.70",
+      "code": 7,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I08",
+      "r": "0.60",
+      "code": 7,
+      "content_mapping": "X_TO_B",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I08",
+      "r": "0.65",
+      "code": 0,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_A",
+      "claim_order": "A_FIRST",
+      "repeated_content": "TEXT_X"
+    },
+    {
+      "item_id": "I08",
+      "r": "0.70",
+      "code": 6,
+      "content_mapping": "X_TO_A",
+      "repeated_label": "CLAIM_B",
+      "claim_order": "B_FIRST",
+      "repeated_content": "TEXT_Y"
+    }
+  ]
+}

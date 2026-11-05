@@ -1,0 +1,2440 @@
+{
+  "checks": {
+    "normative_mismatches": []
+  },
+  "analysis": {
+    "Qwen4": {
+      "file": "results/ieab-v0.4.3-2026-11-03/EXPORTURI/qwen3.5-4b-results.jsonl",
+      "rows": 360,
+      "unique": 360,
+      "valid": 360,
+      "P5": {
+        "A1": [
+          8,
+          8
+        ],
+        "A2": [
+          10,
+          16
+        ],
+        "A2_byOrder": {
+          "LOWER_FIRST": [
+            2,
+            8
+          ],
+          "LOWER_LAST": [
+            8,
+            8
+          ]
+        }
+      },
+      "P1": {
+        "2": {
+          "rep": [
+            12,
+            14,
+            12
+          ],
+          "class": "NOT_FOLLOWS"
+        },
+        "3": {
+          "rep": [
+            16,
+            16,
+            16
+          ],
+          "class": "NOT_FOLLOWS"
+        }
+      },
+      "P2": {
+        "B1": [
+          176,
+          240
+        ],
+        "B3": [
+          212,
+          240
+        ]
+      },
+      "P3": {
+        "switch": 35,
+        "reverse": 0,
+        "sameRepeated": 57,
+        "sameSingle": 4,
+        "informative": 92,
+        "total": 96,
+        "dependentCorrect": 39
+      },
+      "P4": {
+        "same": 92,
+        "blockFirst": 28,
+        "blockLast": 0,
+        "direction": "FAVOURS_FIRST",
+        "riskDifferenceCounterFirstMinusLast": -0.23333333333333334,
+        "discordant": [
+          "CORE:I01:r060:n2:FIRST",
+          "CORE:I01:r065:n1:FIRST",
+          "CORE:I01:r070:n1:FIRST",
+          "CORE:I01:r070:n2:FIRST",
+          "CORE:I02:r060:n1:FIRST",
+          "CORE:I02:r060:n2:FIRST",
+          "CORE:I02:r065:n1:FIRST",
+          "CORE:I02:r070:n1:FIRST",
+          "CORE:I02:r070:n2:FIRST",
+          "CORE:I03:r060:n1:FIRST",
+          "CORE:I03:r065:n1:FIRST",
+          "CORE:I03:r065:n2:FIRST",
+          "CORE:I03:r070:n1:FIRST",
+          "CORE:I04:r060:n1:FIRST",
+          "CORE:I04:r070:n1:FIRST",
+          "CORE:I05:r060:n2:FIRST",
+          "CORE:I05:r065:n1:FIRST",
+          "CORE:I05:r070:n2:FIRST",
+          "CORE:I06:r060:n2:FIRST",
+          "CORE:I06:r065:n1:FIRST",
+          "CORE:I06:r065:n2:FIRST",
+          "CORE:I07:r060:n1:FIRST",
+          "CORE:I07:r065:n1:FIRST",
+          "CORE:I07:r070:n1:FIRST",
+          "CORE:I07:r070:n2:FIRST",
+          "CORE:I08:r060:n1:FIRST",
+          "CORE:I08:r065:n1:FIRST",
+          "CORE:I08:r070:n1:FIRST"
+        ]
+      },
+      "byItem": {
+        "I01": {
+          "B1": 22,
+          "B3": 26,
+          "P3": {
+            "switch": 4,
+            "reverse": 0,
+            "sameRepeated": 7,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 5
+          },
+          "n2": [
+            1,
+            2,
+            1
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I02": {
+          "B1": 21,
+          "B3": 25,
+          "P3": {
+            "switch": 3,
+            "reverse": 0,
+            "sameRepeated": 8,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 4
+          },
+          "n2": [
+            1,
+            2,
+            1
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I03": {
+          "B1": 22,
+          "B3": 26,
+          "P3": {
+            "switch": 4,
+            "reverse": 0,
+            "sameRepeated": 8,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 4
+          },
+          "n2": [
+            2,
+            1,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I04": {
+          "B1": 22,
+          "B3": 28,
+          "P3": {
+            "switch": 5,
+            "reverse": 0,
+            "sameRepeated": 7,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 5
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I05": {
+          "B1": 23,
+          "B3": 27,
+          "P3": {
+            "switch": 5,
+            "reverse": 0,
+            "sameRepeated": 6,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 6
+          },
+          "n2": [
+            1,
+            2,
+            1
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I06": {
+          "B1": 25,
+          "B3": 27,
+          "P3": {
+            "switch": 4,
+            "reverse": 0,
+            "sameRepeated": 8,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 4
+          },
+          "n2": [
+            1,
+            1,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I07": {
+          "B1": 20,
+          "B3": 26,
+          "P3": {
+            "switch": 4,
+            "reverse": 0,
+            "sameRepeated": 7,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 5
+          },
+          "n2": [
+            2,
+            2,
+            1
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I08": {
+          "B1": 21,
+          "B3": 27,
+          "P3": {
+            "switch": 6,
+            "reverse": 0,
+            "sameRepeated": 6,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 6
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "byCell": {
+        "0.60/4": {
+          "switch": 7,
+          "reverse": 0,
+          "sameRepeated": 9,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 7
+        },
+        "0.65/3": {
+          "switch": 5,
+          "reverse": 0,
+          "sameRepeated": 11,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 5
+        },
+        "0.70/2": {
+          "switch": 4,
+          "reverse": 0,
+          "sameRepeated": 8,
+          "sameSingle": 4,
+          "informative": 12,
+          "total": 16,
+          "dependentCorrect": 8
+        },
+        "0.60/5": {
+          "switch": 6,
+          "reverse": 0,
+          "sameRepeated": 10,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 6
+        },
+        "0.65/5": {
+          "switch": 6,
+          "reverse": 0,
+          "sameRepeated": 10,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 6
+        },
+        "0.70/5": {
+          "switch": 7,
+          "reverse": 0,
+          "sameRepeated": 9,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 7
+        }
+      },
+      "byOrder": {
+        "COUNTER_FIRST": {
+          "B1": 98,
+          "B3": 110,
+          "P3": {
+            "switch": 35,
+            "reverse": 0,
+            "sameRepeated": 9,
+            "sameSingle": 4,
+            "informative": 44,
+            "total": 48,
+            "dependentCorrect": 39
+          },
+          "n2": [
+            4,
+            6,
+            4
+          ],
+          "n3": [
+            8,
+            8,
+            8
+          ]
+        },
+        "COUNTER_LAST": {
+          "B1": 78,
+          "B3": 102,
+          "P3": {
+            "switch": 0,
+            "reverse": 0,
+            "sameRepeated": 48,
+            "sameSingle": 0,
+            "informative": 48,
+            "total": 48,
+            "dependentCorrect": 0
+          },
+          "n2": [
+            8,
+            8,
+            8
+          ],
+          "n3": [
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      "ruleAgreements": {
+        "B1": [
+          176,
+          240
+        ],
+        "B2": [
+          40,
+          240
+        ],
+        "B3": [
+          212,
+          240
+        ],
+        "B4": [
+          92,
+          240
+        ],
+        "B6": [
+          148,
+          240
+        ],
+        "B7": [
+          174,
+          208
+        ]
+      },
+      "grid": {
+        "0.60": [
+          5,
+          12,
+          16,
+          16,
+          16
+        ],
+        "0.65": [
+          7,
+          14,
+          16,
+          16,
+          16
+        ],
+        "0.70": [
+          6,
+          12,
+          16,
+          16,
+          16
+        ]
+      },
+      "traces": {
+        "I01/0.60/COUNTER_FIRST": "00111",
+        "I01/0.60/COUNTER_LAST": "01111",
+        "I01/0.65/COUNTER_FIRST": "01111",
+        "I01/0.65/COUNTER_LAST": "11111",
+        "I01/0.70/COUNTER_FIRST": "00111",
+        "I01/0.70/COUNTER_LAST": "11111",
+        "I02/0.60/COUNTER_FIRST": "00111",
+        "I02/0.60/COUNTER_LAST": "11111",
+        "I02/0.65/COUNTER_FIRST": "01111",
+        "I02/0.65/COUNTER_LAST": "11111",
+        "I02/0.70/COUNTER_FIRST": "00111",
+        "I02/0.70/COUNTER_LAST": "11111",
+        "I03/0.60/COUNTER_FIRST": "01111",
+        "I03/0.60/COUNTER_LAST": "11111",
+        "I03/0.65/COUNTER_FIRST": "00111",
+        "I03/0.65/COUNTER_LAST": "11111",
+        "I03/0.70/COUNTER_FIRST": "01111",
+        "I03/0.70/COUNTER_LAST": "11111",
+        "I04/0.60/COUNTER_FIRST": "01111",
+        "I04/0.60/COUNTER_LAST": "11111",
+        "I04/0.65/COUNTER_FIRST": "01111",
+        "I04/0.65/COUNTER_LAST": "01111",
+        "I04/0.70/COUNTER_FIRST": "01111",
+        "I04/0.70/COUNTER_LAST": "11111",
+        "I05/0.60/COUNTER_FIRST": "00111",
+        "I05/0.60/COUNTER_LAST": "01111",
+        "I05/0.65/COUNTER_FIRST": "01111",
+        "I05/0.65/COUNTER_LAST": "11111",
+        "I05/0.70/COUNTER_FIRST": "00111",
+        "I05/0.70/COUNTER_LAST": "01111",
+        "I06/0.60/COUNTER_FIRST": "00111",
+        "I06/0.60/COUNTER_LAST": "01111",
+        "I06/0.65/COUNTER_FIRST": "00111",
+        "I06/0.65/COUNTER_LAST": "11111",
+        "I06/0.70/COUNTER_FIRST": "01111",
+        "I06/0.70/COUNTER_LAST": "01111",
+        "I07/0.60/COUNTER_FIRST": "01111",
+        "I07/0.60/COUNTER_LAST": "11111",
+        "I07/0.65/COUNTER_FIRST": "01111",
+        "I07/0.65/COUNTER_LAST": "11111",
+        "I07/0.70/COUNTER_FIRST": "00111",
+        "I07/0.70/COUNTER_LAST": "11111",
+        "I08/0.60/COUNTER_FIRST": "01111",
+        "I08/0.60/COUNTER_LAST": "11111",
+        "I08/0.65/COUNTER_FIRST": "01111",
+        "I08/0.65/COUNTER_LAST": "11111",
+        "I08/0.70/COUNTER_FIRST": "01111",
+        "I08/0.70/COUNTER_LAST": "11111"
+      },
+      "reversals": 0
+    },
+    "GemmaE4": {
+      "file": "results/ieab-v0.4.3-2026-11-03/EXPORTURI/gemma-run2-results.jsonl",
+      "rows": 360,
+      "unique": 360,
+      "valid": 360,
+      "P5": {
+        "A1": [
+          8,
+          8
+        ],
+        "A2": [
+          8,
+          16
+        ],
+        "A2_byOrder": {
+          "LOWER_FIRST": [
+            0,
+            8
+          ],
+          "LOWER_LAST": [
+            8,
+            8
+          ]
+        }
+      },
+      "P1": {
+        "2": {
+          "rep": [
+            15,
+            11,
+            15
+          ],
+          "class": "NOT_FOLLOWS"
+        },
+        "3": {
+          "rep": [
+            16,
+            16,
+            16
+          ],
+          "class": "NOT_FOLLOWS"
+        }
+      },
+      "P2": {
+        "B1": [
+          174,
+          240
+        ],
+        "B3": [
+          210,
+          240
+        ]
+      },
+      "P3": {
+        "switch": 13,
+        "reverse": 0,
+        "sameRepeated": 82,
+        "sameSingle": 1,
+        "informative": 95,
+        "total": 96,
+        "dependentCorrect": 14
+      },
+      "P4": {
+        "same": 90,
+        "blockFirst": 30,
+        "blockLast": 0,
+        "direction": "FAVOURS_FIRST",
+        "riskDifferenceCounterFirstMinusLast": -0.25,
+        "discordant": [
+          "CORE:I01:r060:n1:FIRST",
+          "CORE:I01:r065:n1:FIRST",
+          "CORE:I01:r070:n1:FIRST",
+          "CORE:I02:r065:n1:FIRST",
+          "CORE:I02:r065:n2:FIRST",
+          "CORE:I02:r070:n1:FIRST",
+          "CORE:I03:r060:n1:FIRST",
+          "CORE:I03:r065:n1:FIRST",
+          "CORE:I03:r065:n2:FIRST",
+          "CORE:I03:r070:n1:FIRST",
+          "CORE:I04:r060:n1:FIRST",
+          "CORE:I04:r065:n1:FIRST",
+          "CORE:I04:r065:n2:FIRST",
+          "CORE:I04:r070:n1:FIRST",
+          "CORE:I05:r060:n1:FIRST",
+          "CORE:I05:r065:n1:FIRST",
+          "CORE:I05:r065:n2:FIRST",
+          "CORE:I05:r070:n1:FIRST",
+          "CORE:I06:r060:n1:FIRST",
+          "CORE:I06:r065:n1:FIRST",
+          "CORE:I06:r065:n2:FIRST",
+          "CORE:I06:r070:n1:FIRST",
+          "CORE:I06:r070:n2:FIRST",
+          "CORE:I07:r060:n1:FIRST",
+          "CORE:I07:r060:n2:FIRST",
+          "CORE:I07:r065:n1:FIRST",
+          "CORE:I07:r070:n1:FIRST",
+          "CORE:I08:r060:n1:FIRST",
+          "CORE:I08:r065:n1:FIRST",
+          "CORE:I08:r070:n1:FIRST"
+        ]
+      },
+      "byItem": {
+        "I01": {
+          "B1": 21,
+          "B3": 27,
+          "P3": {
+            "switch": 1,
+            "reverse": 0,
+            "sameRepeated": 11,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 1
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I02": {
+          "B1": 23,
+          "B3": 27,
+          "P3": {
+            "switch": 2,
+            "reverse": 0,
+            "sameRepeated": 10,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 2
+          },
+          "n2": [
+            2,
+            1,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I03": {
+          "B1": 22,
+          "B3": 26,
+          "P3": {
+            "switch": 3,
+            "reverse": 0,
+            "sameRepeated": 9,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 3
+          },
+          "n2": [
+            2,
+            1,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I04": {
+          "B1": 22,
+          "B3": 26,
+          "P3": {
+            "switch": 2,
+            "reverse": 0,
+            "sameRepeated": 10,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 2
+          },
+          "n2": [
+            2,
+            1,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I05": {
+          "B1": 22,
+          "B3": 26,
+          "P3": {
+            "switch": 2,
+            "reverse": 0,
+            "sameRepeated": 10,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 2
+          },
+          "n2": [
+            2,
+            1,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I06": {
+          "B1": 21,
+          "B3": 25,
+          "P3": {
+            "switch": 1,
+            "reverse": 0,
+            "sameRepeated": 10,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 2
+          },
+          "n2": [
+            2,
+            1,
+            1
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I07": {
+          "B1": 22,
+          "B3": 26,
+          "P3": {
+            "switch": 1,
+            "reverse": 0,
+            "sameRepeated": 11,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 1
+          },
+          "n2": [
+            1,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I08": {
+          "B1": 21,
+          "B3": 27,
+          "P3": {
+            "switch": 1,
+            "reverse": 0,
+            "sameRepeated": 11,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 1
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "byCell": {
+        "0.60/4": {
+          "switch": 1,
+          "reverse": 0,
+          "sameRepeated": 15,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 1
+        },
+        "0.65/3": {
+          "switch": 3,
+          "reverse": 0,
+          "sameRepeated": 13,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 3
+        },
+        "0.70/2": {
+          "switch": 7,
+          "reverse": 0,
+          "sameRepeated": 8,
+          "sameSingle": 1,
+          "informative": 15,
+          "total": 16,
+          "dependentCorrect": 8
+        },
+        "0.60/5": {
+          "switch": 0,
+          "reverse": 0,
+          "sameRepeated": 16,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 0
+        },
+        "0.65/5": {
+          "switch": 1,
+          "reverse": 0,
+          "sameRepeated": 15,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 1
+        },
+        "0.70/5": {
+          "switch": 1,
+          "reverse": 0,
+          "sameRepeated": 15,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 1
+        }
+      },
+      "byOrder": {
+        "COUNTER_FIRST": {
+          "B1": 101,
+          "B3": 113,
+          "P3": {
+            "switch": 13,
+            "reverse": 0,
+            "sameRepeated": 34,
+            "sameSingle": 1,
+            "informative": 47,
+            "total": 48,
+            "dependentCorrect": 14
+          },
+          "n2": [
+            7,
+            3,
+            7
+          ],
+          "n3": [
+            8,
+            8,
+            8
+          ]
+        },
+        "COUNTER_LAST": {
+          "B1": 73,
+          "B3": 97,
+          "P3": {
+            "switch": 0,
+            "reverse": 0,
+            "sameRepeated": 48,
+            "sameSingle": 0,
+            "informative": 48,
+            "total": 48,
+            "dependentCorrect": 0
+          },
+          "n2": [
+            8,
+            8,
+            8
+          ],
+          "n3": [
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      "ruleAgreements": {
+        "B1": [
+          174,
+          240
+        ],
+        "B2": [
+          32,
+          240
+        ],
+        "B3": [
+          210,
+          240
+        ],
+        "B4": [
+          90,
+          240
+        ],
+        "B6": [
+          150,
+          240
+        ],
+        "B7": [
+          169,
+          208
+        ]
+      },
+      "grid": {
+        "0.60": [
+          7,
+          15,
+          16,
+          16,
+          16
+        ],
+        "0.65": [
+          8,
+          11,
+          16,
+          16,
+          16
+        ],
+        "0.70": [
+          8,
+          15,
+          16,
+          16,
+          16
+        ]
+      },
+      "traces": {
+        "I01/0.60/COUNTER_FIRST": "01111",
+        "I01/0.60/COUNTER_LAST": "11111",
+        "I01/0.65/COUNTER_FIRST": "01111",
+        "I01/0.65/COUNTER_LAST": "11111",
+        "I01/0.70/COUNTER_FIRST": "01111",
+        "I01/0.70/COUNTER_LAST": "11111",
+        "I02/0.60/COUNTER_FIRST": "01111",
+        "I02/0.60/COUNTER_LAST": "01111",
+        "I02/0.65/COUNTER_FIRST": "00111",
+        "I02/0.65/COUNTER_LAST": "11111",
+        "I02/0.70/COUNTER_FIRST": "01111",
+        "I02/0.70/COUNTER_LAST": "11111",
+        "I03/0.60/COUNTER_FIRST": "01111",
+        "I03/0.60/COUNTER_LAST": "11111",
+        "I03/0.65/COUNTER_FIRST": "00111",
+        "I03/0.65/COUNTER_LAST": "11111",
+        "I03/0.70/COUNTER_FIRST": "01111",
+        "I03/0.70/COUNTER_LAST": "11111",
+        "I04/0.60/COUNTER_FIRST": "01111",
+        "I04/0.60/COUNTER_LAST": "11111",
+        "I04/0.65/COUNTER_FIRST": "00111",
+        "I04/0.65/COUNTER_LAST": "11111",
+        "I04/0.70/COUNTER_FIRST": "01111",
+        "I04/0.70/COUNTER_LAST": "11111",
+        "I05/0.60/COUNTER_FIRST": "01111",
+        "I05/0.60/COUNTER_LAST": "11111",
+        "I05/0.65/COUNTER_FIRST": "00111",
+        "I05/0.65/COUNTER_LAST": "11111",
+        "I05/0.70/COUNTER_FIRST": "01111",
+        "I05/0.70/COUNTER_LAST": "11111",
+        "I06/0.60/COUNTER_FIRST": "01111",
+        "I06/0.60/COUNTER_LAST": "11111",
+        "I06/0.65/COUNTER_FIRST": "00111",
+        "I06/0.65/COUNTER_LAST": "11111",
+        "I06/0.70/COUNTER_FIRST": "00111",
+        "I06/0.70/COUNTER_LAST": "11111",
+        "I07/0.60/COUNTER_FIRST": "00111",
+        "I07/0.60/COUNTER_LAST": "11111",
+        "I07/0.65/COUNTER_FIRST": "01111",
+        "I07/0.65/COUNTER_LAST": "11111",
+        "I07/0.70/COUNTER_FIRST": "01111",
+        "I07/0.70/COUNTER_LAST": "11111",
+        "I08/0.60/COUNTER_FIRST": "01111",
+        "I08/0.60/COUNTER_LAST": "11111",
+        "I08/0.65/COUNTER_FIRST": "01111",
+        "I08/0.65/COUNTER_LAST": "11111",
+        "I08/0.70/COUNTER_FIRST": "01111",
+        "I08/0.70/COUNTER_LAST": "11111"
+      },
+      "reversals": 0
+    },
+    "Ministral8": {
+      "file": "results/ieab-v0.4.3-2026-11-03/EXPORTURI/ministral-results.jsonl",
+      "rows": 360,
+      "unique": 360,
+      "valid": 360,
+      "P5": {
+        "A1": [
+          8,
+          8
+        ],
+        "A2": [
+          10,
+          16
+        ],
+        "A2_byOrder": {
+          "LOWER_FIRST": [
+            6,
+            8
+          ],
+          "LOWER_LAST": [
+            4,
+            8
+          ]
+        }
+      },
+      "P1": {
+        "2": {
+          "rep": [
+            11,
+            13,
+            14
+          ],
+          "class": "NOT_FOLLOWS"
+        },
+        "3": {
+          "rep": [
+            12,
+            12,
+            14
+          ],
+          "class": "NOT_FOLLOWS"
+        }
+      },
+      "P2": {
+        "B1": [
+          169,
+          240
+        ],
+        "B3": [
+          193,
+          240
+        ]
+      },
+      "P3": {
+        "switch": 21,
+        "reverse": 4,
+        "sameRepeated": 60,
+        "sameSingle": 11,
+        "informative": 81,
+        "total": 96,
+        "dependentCorrect": 32
+      },
+      "P4": {
+        "same": 85,
+        "blockFirst": 2,
+        "blockLast": 33,
+        "direction": "FAVOURS_LAST",
+        "riskDifferenceCounterFirstMinusLast": 0.25833333333333336,
+        "discordant": [
+          "CORE:I01:r060:n2:FIRST",
+          "CORE:I01:r060:n3:FIRST",
+          "CORE:I01:r060:n4:FIRST",
+          "CORE:I02:r060:n2:FIRST",
+          "CORE:I02:r060:n5:FIRST",
+          "CORE:I02:r070:n1:FIRST",
+          "CORE:I03:r065:n2:FIRST",
+          "CORE:I03:r065:n3:FIRST",
+          "CORE:I03:r065:n4:FIRST",
+          "CORE:I03:r065:n5:FIRST",
+          "CORE:I04:r060:n2:FIRST",
+          "CORE:I04:r060:n3:FIRST",
+          "CORE:I04:r065:n2:FIRST",
+          "CORE:I04:r065:n3:FIRST",
+          "CORE:I04:r065:n4:FIRST",
+          "CORE:I04:r065:n5:FIRST",
+          "CORE:I05:r060:n2:FIRST",
+          "CORE:I05:r060:n3:FIRST",
+          "CORE:I05:r060:n4:FIRST",
+          "CORE:I05:r060:n5:FIRST",
+          "CORE:I05:r065:n2:FIRST",
+          "CORE:I05:r070:n2:FIRST",
+          "CORE:I05:r070:n3:FIRST",
+          "CORE:I05:r070:n4:FIRST",
+          "CORE:I06:r060:n2:FIRST",
+          "CORE:I06:r060:n3:FIRST",
+          "CORE:I06:r060:n4:FIRST",
+          "CORE:I06:r060:n5:FIRST",
+          "CORE:I06:r065:n3:FIRST",
+          "CORE:I06:r070:n2:FIRST",
+          "CORE:I06:r070:n3:FIRST",
+          "CORE:I06:r070:n4:FIRST",
+          "CORE:I06:r070:n5:FIRST",
+          "CORE:I08:r065:n1:FIRST",
+          "CORE:I08:r065:n3:FIRST"
+        ]
+      },
+      "byItem": {
+        "I01": {
+          "B1": 23,
+          "B3": 25,
+          "P3": {
+            "switch": 2,
+            "reverse": 0,
+            "sameRepeated": 9,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 3
+          },
+          "n2": [
+            1,
+            2,
+            2
+          ],
+          "n3": [
+            1,
+            2,
+            2
+          ]
+        },
+        "I02": {
+          "B1": 21,
+          "B3": 25,
+          "P3": {
+            "switch": 2,
+            "reverse": 1,
+            "sameRepeated": 9,
+            "sameSingle": 0,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 2
+          },
+          "n2": [
+            1,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I03": {
+          "B1": 22,
+          "B3": 26,
+          "P3": {
+            "switch": 3,
+            "reverse": 0,
+            "sameRepeated": 7,
+            "sameSingle": 2,
+            "informative": 10,
+            "total": 12,
+            "dependentCorrect": 5
+          },
+          "n2": [
+            2,
+            1,
+            2
+          ],
+          "n3": [
+            2,
+            1,
+            2
+          ]
+        },
+        "I04": {
+          "B1": 24,
+          "B3": 24,
+          "P3": {
+            "switch": 2,
+            "reverse": 1,
+            "sameRepeated": 8,
+            "sameSingle": 1,
+            "informative": 10,
+            "total": 12,
+            "dependentCorrect": 3
+          },
+          "n2": [
+            1,
+            1,
+            2
+          ],
+          "n3": [
+            1,
+            1,
+            2
+          ]
+        },
+        "I05": {
+          "B1": 22,
+          "B3": 22,
+          "P3": {
+            "switch": 7,
+            "reverse": 1,
+            "sameRepeated": 2,
+            "sameSingle": 2,
+            "informative": 9,
+            "total": 12,
+            "dependentCorrect": 9
+          },
+          "n2": [
+            1,
+            1,
+            1
+          ],
+          "n3": [
+            1,
+            2,
+            1
+          ]
+        },
+        "I06": {
+          "B1": 19,
+          "B3": 21,
+          "P3": {
+            "switch": 4,
+            "reverse": 1,
+            "sameRepeated": 3,
+            "sameSingle": 4,
+            "informative": 7,
+            "total": 12,
+            "dependentCorrect": 8
+          },
+          "n2": [
+            1,
+            2,
+            1
+          ],
+          "n3": [
+            1,
+            1,
+            1
+          ]
+        },
+        "I07": {
+          "B1": 20,
+          "B3": 26,
+          "P3": {
+            "switch": 1,
+            "reverse": 0,
+            "sameRepeated": 11,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 1
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I08": {
+          "B1": 18,
+          "B3": 24,
+          "P3": {
+            "switch": 0,
+            "reverse": 0,
+            "sameRepeated": 11,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 1
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            1,
+            2
+          ]
+        }
+      },
+      "byCell": {
+        "0.60/4": {
+          "switch": 5,
+          "reverse": 0,
+          "sameRepeated": 8,
+          "sameSingle": 3,
+          "informative": 13,
+          "total": 16,
+          "dependentCorrect": 8
+        },
+        "0.65/3": {
+          "switch": 4,
+          "reverse": 1,
+          "sameRepeated": 8,
+          "sameSingle": 3,
+          "informative": 12,
+          "total": 16,
+          "dependentCorrect": 7
+        },
+        "0.70/2": {
+          "switch": 4,
+          "reverse": 0,
+          "sameRepeated": 10,
+          "sameSingle": 2,
+          "informative": 14,
+          "total": 16,
+          "dependentCorrect": 6
+        },
+        "0.60/5": {
+          "switch": 3,
+          "reverse": 2,
+          "sameRepeated": 10,
+          "sameSingle": 1,
+          "informative": 13,
+          "total": 16,
+          "dependentCorrect": 4
+        },
+        "0.65/5": {
+          "switch": 3,
+          "reverse": 1,
+          "sameRepeated": 11,
+          "sameSingle": 1,
+          "informative": 14,
+          "total": 16,
+          "dependentCorrect": 4
+        },
+        "0.70/5": {
+          "switch": 2,
+          "reverse": 0,
+          "sameRepeated": 13,
+          "sameSingle": 1,
+          "informative": 15,
+          "total": 16,
+          "dependentCorrect": 3
+        }
+      },
+      "byOrder": {
+        "COUNTER_FIRST": {
+          "B1": 88,
+          "B3": 110,
+          "P3": {
+            "switch": 14,
+            "reverse": 1,
+            "sameRepeated": 33,
+            "sameSingle": 0,
+            "informative": 47,
+            "total": 48,
+            "dependentCorrect": 14
+          },
+          "n2": [
+            8,
+            7,
+            8
+          ],
+          "n3": [
+            8,
+            7,
+            8
+          ]
+        },
+        "COUNTER_LAST": {
+          "B1": 81,
+          "B3": 83,
+          "P3": {
+            "switch": 7,
+            "reverse": 3,
+            "sameRepeated": 27,
+            "sameSingle": 11,
+            "informative": 34,
+            "total": 48,
+            "dependentCorrect": 18
+          },
+          "n2": [
+            3,
+            6,
+            6
+          ],
+          "n3": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "ruleAgreements": {
+        "B1": [
+          169,
+          240
+        ],
+        "B2": [
+          67,
+          240
+        ],
+        "B3": [
+          193,
+          240
+        ],
+        "B4": [
+          151,
+          240
+        ],
+        "B6": [
+          89,
+          240
+        ],
+        "B7": [
+          162,
+          208
+        ]
+      },
+      "grid": {
+        "0.60": [
+          4,
+          11,
+          12,
+          13,
+          13
+        ],
+        "0.65": [
+          5,
+          13,
+          12,
+          14,
+          14
+        ],
+        "0.70": [
+          5,
+          14,
+          14,
+          14,
+          15
+        ]
+      },
+      "traces": {
+        "I01/0.60/COUNTER_FIRST": "01111",
+        "I01/0.60/COUNTER_LAST": "00001",
+        "I01/0.65/COUNTER_FIRST": "11111",
+        "I01/0.65/COUNTER_LAST": "11111",
+        "I01/0.70/COUNTER_FIRST": "01111",
+        "I01/0.70/COUNTER_LAST": "01111",
+        "I02/0.60/COUNTER_FIRST": "01111",
+        "I02/0.60/COUNTER_LAST": "00110",
+        "I02/0.65/COUNTER_FIRST": "11111",
+        "I02/0.65/COUNTER_LAST": "11111",
+        "I02/0.70/COUNTER_FIRST": "11111",
+        "I02/0.70/COUNTER_LAST": "01111",
+        "I03/0.60/COUNTER_FIRST": "01111",
+        "I03/0.60/COUNTER_LAST": "01111",
+        "I03/0.65/COUNTER_FIRST": "01111",
+        "I03/0.65/COUNTER_LAST": "00000",
+        "I03/0.70/COUNTER_FIRST": "01111",
+        "I03/0.70/COUNTER_LAST": "01111",
+        "I04/0.60/COUNTER_FIRST": "01111",
+        "I04/0.60/COUNTER_LAST": "00011",
+        "I04/0.65/COUNTER_FIRST": "01111",
+        "I04/0.65/COUNTER_LAST": "00000",
+        "I04/0.70/COUNTER_FIRST": "01111",
+        "I04/0.70/COUNTER_LAST": "01111",
+        "I05/0.60/COUNTER_FIRST": "01111",
+        "I05/0.60/COUNTER_LAST": "00000",
+        "I05/0.65/COUNTER_FIRST": "00111",
+        "I05/0.65/COUNTER_LAST": "01111",
+        "I05/0.70/COUNTER_FIRST": "01111",
+        "I05/0.70/COUNTER_LAST": "00001",
+        "I06/0.60/COUNTER_FIRST": "01111",
+        "I06/0.60/COUNTER_LAST": "00000",
+        "I06/0.65/COUNTER_FIRST": "01011",
+        "I06/0.65/COUNTER_LAST": "01111",
+        "I06/0.70/COUNTER_FIRST": "01111",
+        "I06/0.70/COUNTER_LAST": "00000",
+        "I07/0.60/COUNTER_FIRST": "11111",
+        "I07/0.60/COUNTER_LAST": "11111",
+        "I07/0.65/COUNTER_FIRST": "01111",
+        "I07/0.65/COUNTER_LAST": "01111",
+        "I07/0.70/COUNTER_FIRST": "11111",
+        "I07/0.70/COUNTER_LAST": "11111",
+        "I08/0.60/COUNTER_FIRST": "11111",
+        "I08/0.60/COUNTER_LAST": "11111",
+        "I08/0.65/COUNTER_FIRST": "11111",
+        "I08/0.65/COUNTER_LAST": "01011",
+        "I08/0.70/COUNTER_FIRST": "11111",
+        "I08/0.70/COUNTER_LAST": "11111"
+      },
+      "reversals": 3
+    },
+    "Qwen9": {
+      "file": "results/ieab-v0.4.4-2026-11-05/qwen3.5-9b-results.jsonl",
+      "rows": 360,
+      "unique": 360,
+      "valid": 360,
+      "P5": {
+        "A1": [
+          8,
+          8
+        ],
+        "A2": [
+          13,
+          16
+        ],
+        "A2_byOrder": {
+          "LOWER_FIRST": [
+            7,
+            8
+          ],
+          "LOWER_LAST": [
+            6,
+            8
+          ]
+        }
+      },
+      "P1": {
+        "2": {
+          "rep": [
+            8,
+            5,
+            12
+          ],
+          "class": "INTERMEDIATE"
+        },
+        "3": {
+          "rep": [
+            12,
+            12,
+            16
+          ],
+          "class": "NOT_FOLLOWS"
+        }
+      },
+      "P2": {
+        "B1": [
+          199,
+          240
+        ],
+        "B3": [
+          201,
+          240
+        ]
+      },
+      "P3": {
+        "switch": 43,
+        "reverse": 0,
+        "sameRepeated": 45,
+        "sameSingle": 8,
+        "informative": 88,
+        "total": 96,
+        "dependentCorrect": 51
+      },
+      "P4": {
+        "same": 105,
+        "blockFirst": 6,
+        "blockLast": 9,
+        "direction": "FAVOURS_LAST",
+        "riskDifferenceCounterFirstMinusLast": 0.025,
+        "discordant": [
+          "CORE:I01:r060:n1:FIRST",
+          "CORE:I01:r065:n4:FIRST",
+          "CORE:I01:r070:n1:FIRST",
+          "CORE:I02:r060:n1:FIRST",
+          "CORE:I03:r060:n3:FIRST",
+          "CORE:I04:r060:n3:FIRST",
+          "CORE:I04:r065:n2:FIRST",
+          "CORE:I04:r070:n2:FIRST",
+          "CORE:I05:r065:n3:FIRST",
+          "CORE:I06:r060:n2:FIRST",
+          "CORE:I06:r065:n3:FIRST",
+          "CORE:I07:r065:n1:FIRST",
+          "CORE:I07:r070:n2:FIRST",
+          "CORE:I08:r060:n2:FIRST",
+          "CORE:I08:r065:n1:FIRST"
+        ]
+      },
+      "byItem": {
+        "I01": {
+          "B1": 23,
+          "B3": 25,
+          "P3": {
+            "switch": 6,
+            "reverse": 0,
+            "sameRepeated": 6,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 6
+          },
+          "n2": [
+            2,
+            0,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I02": {
+          "B1": 21,
+          "B3": 23,
+          "P3": {
+            "switch": 1,
+            "reverse": 0,
+            "sameRepeated": 9,
+            "sameSingle": 2,
+            "informative": 10,
+            "total": 12,
+            "dependentCorrect": 3
+          },
+          "n2": [
+            2,
+            0,
+            2
+          ],
+          "n3": [
+            2,
+            0,
+            2
+          ]
+        },
+        "I03": {
+          "B1": 27,
+          "B3": 23,
+          "P3": {
+            "switch": 7,
+            "reverse": 0,
+            "sameRepeated": 3,
+            "sameSingle": 2,
+            "informative": 10,
+            "total": 12,
+            "dependentCorrect": 9
+          },
+          "n2": [
+            0,
+            0,
+            0
+          ],
+          "n3": [
+            1,
+            2,
+            2
+          ]
+        },
+        "I04": {
+          "B1": 27,
+          "B3": 25,
+          "P3": {
+            "switch": 9,
+            "reverse": 0,
+            "sameRepeated": 2,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 10
+          },
+          "n2": [
+            0,
+            1,
+            1
+          ],
+          "n3": [
+            1,
+            2,
+            2
+          ]
+        },
+        "I05": {
+          "B1": 25,
+          "B3": 27,
+          "P3": {
+            "switch": 4,
+            "reverse": 0,
+            "sameRepeated": 7,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 5
+          },
+          "n2": [
+            2,
+            0,
+            2
+          ],
+          "n3": [
+            2,
+            1,
+            2
+          ]
+        },
+        "I06": {
+          "B1": 26,
+          "B3": 26,
+          "P3": {
+            "switch": 4,
+            "reverse": 0,
+            "sameRepeated": 7,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 5
+          },
+          "n2": [
+            1,
+            0,
+            2
+          ],
+          "n3": [
+            2,
+            1,
+            2
+          ]
+        },
+        "I07": {
+          "B1": 24,
+          "B3": 26,
+          "P3": {
+            "switch": 7,
+            "reverse": 0,
+            "sameRepeated": 4,
+            "sameSingle": 1,
+            "informative": 11,
+            "total": 12,
+            "dependentCorrect": 8
+          },
+          "n2": [
+            0,
+            2,
+            1
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I08": {
+          "B1": 26,
+          "B3": 26,
+          "P3": {
+            "switch": 5,
+            "reverse": 0,
+            "sameRepeated": 7,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 5
+          },
+          "n2": [
+            1,
+            2,
+            2
+          ],
+          "n3": [
+            0,
+            2,
+            2
+          ]
+        }
+      },
+      "byCell": {
+        "0.60/4": {
+          "switch": 10,
+          "reverse": 0,
+          "sameRepeated": 6,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 10
+        },
+        "0.65/3": {
+          "switch": 5,
+          "reverse": 0,
+          "sameRepeated": 7,
+          "sameSingle": 4,
+          "informative": 12,
+          "total": 16,
+          "dependentCorrect": 9
+        },
+        "0.70/2": {
+          "switch": 5,
+          "reverse": 0,
+          "sameRepeated": 7,
+          "sameSingle": 4,
+          "informative": 12,
+          "total": 16,
+          "dependentCorrect": 9
+        },
+        "0.60/5": {
+          "switch": 10,
+          "reverse": 0,
+          "sameRepeated": 6,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 10
+        },
+        "0.65/5": {
+          "switch": 6,
+          "reverse": 0,
+          "sameRepeated": 10,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 6
+        },
+        "0.70/5": {
+          "switch": 7,
+          "reverse": 0,
+          "sameRepeated": 9,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 7
+        }
+      },
+      "byOrder": {
+        "COUNTER_FIRST": {
+          "B1": 99,
+          "B3": 97,
+          "P3": {
+            "switch": 30,
+            "reverse": 0,
+            "sameRepeated": 14,
+            "sameSingle": 4,
+            "informative": 44,
+            "total": 48,
+            "dependentCorrect": 34
+          },
+          "n2": [
+            3,
+            3,
+            7
+          ],
+          "n3": [
+            5,
+            5,
+            8
+          ]
+        },
+        "COUNTER_LAST": {
+          "B1": 100,
+          "B3": 104,
+          "P3": {
+            "switch": 13,
+            "reverse": 0,
+            "sameRepeated": 31,
+            "sameSingle": 4,
+            "informative": 44,
+            "total": 48,
+            "dependentCorrect": 17
+          },
+          "n2": [
+            5,
+            2,
+            5
+          ],
+          "n3": [
+            7,
+            7,
+            8
+          ]
+        }
+      },
+      "ruleAgreements": {
+        "B1": [
+          199,
+          240
+        ],
+        "B2": [
+          73,
+          240
+        ],
+        "B3": [
+          201,
+          240
+        ],
+        "B4": [
+          123,
+          240
+        ],
+        "B6": [
+          117,
+          240
+        ],
+        "B7": [
+          184,
+          208
+        ]
+      },
+      "grid": {
+        "0.60": [
+          2,
+          8,
+          12,
+          16,
+          16
+        ],
+        "0.65": [
+          2,
+          5,
+          12,
+          15,
+          16
+        ],
+        "0.70": [
+          3,
+          12,
+          16,
+          16,
+          16
+        ]
+      },
+      "traces": {
+        "I01/0.60/COUNTER_FIRST": "11111",
+        "I01/0.60/COUNTER_LAST": "01111",
+        "I01/0.65/COUNTER_FIRST": "00111",
+        "I01/0.65/COUNTER_LAST": "00101",
+        "I01/0.70/COUNTER_FIRST": "11111",
+        "I01/0.70/COUNTER_LAST": "01111",
+        "I02/0.60/COUNTER_FIRST": "11111",
+        "I02/0.60/COUNTER_LAST": "01111",
+        "I02/0.65/COUNTER_FIRST": "00011",
+        "I02/0.65/COUNTER_LAST": "00011",
+        "I02/0.70/COUNTER_FIRST": "11111",
+        "I02/0.70/COUNTER_LAST": "11111",
+        "I03/0.60/COUNTER_FIRST": "00011",
+        "I03/0.60/COUNTER_LAST": "00111",
+        "I03/0.65/COUNTER_FIRST": "00111",
+        "I03/0.65/COUNTER_LAST": "00111",
+        "I03/0.70/COUNTER_FIRST": "00111",
+        "I03/0.70/COUNTER_LAST": "00111",
+        "I04/0.60/COUNTER_FIRST": "00011",
+        "I04/0.60/COUNTER_LAST": "00111",
+        "I04/0.65/COUNTER_FIRST": "01111",
+        "I04/0.65/COUNTER_LAST": "00111",
+        "I04/0.70/COUNTER_FIRST": "01111",
+        "I04/0.70/COUNTER_LAST": "00111",
+        "I05/0.60/COUNTER_FIRST": "01111",
+        "I05/0.60/COUNTER_LAST": "01111",
+        "I05/0.65/COUNTER_FIRST": "00011",
+        "I05/0.65/COUNTER_LAST": "00111",
+        "I05/0.70/COUNTER_FIRST": "01111",
+        "I05/0.70/COUNTER_LAST": "01111",
+        "I06/0.60/COUNTER_FIRST": "00111",
+        "I06/0.60/COUNTER_LAST": "01111",
+        "I06/0.65/COUNTER_FIRST": "00011",
+        "I06/0.65/COUNTER_LAST": "00111",
+        "I06/0.70/COUNTER_FIRST": "01111",
+        "I06/0.70/COUNTER_LAST": "01111",
+        "I07/0.60/COUNTER_FIRST": "00111",
+        "I07/0.60/COUNTER_LAST": "00111",
+        "I07/0.65/COUNTER_FIRST": "11111",
+        "I07/0.65/COUNTER_LAST": "01111",
+        "I07/0.70/COUNTER_FIRST": "01111",
+        "I07/0.70/COUNTER_LAST": "00111",
+        "I08/0.60/COUNTER_FIRST": "00011",
+        "I08/0.60/COUNTER_LAST": "01011",
+        "I08/0.65/COUNTER_FIRST": "11111",
+        "I08/0.65/COUNTER_LAST": "01111",
+        "I08/0.70/COUNTER_FIRST": "01111",
+        "I08/0.70/COUNTER_LAST": "01111"
+      },
+      "reversals": 2,
+      "hypotheses": {
+        "H1": true,
+        "H2": false,
+        "H3": true,
+        "H4": false
+      }
+    },
+    "Gemma12": {
+      "file": "results/ieab-v0.4.4-2026-11-05/gemma-4-12b-it-results.jsonl",
+      "rows": 360,
+      "unique": 360,
+      "valid": 360,
+      "P5": {
+        "A1": [
+          8,
+          8
+        ],
+        "A2": [
+          15,
+          16
+        ],
+        "A2_byOrder": {
+          "LOWER_FIRST": [
+            7,
+            8
+          ],
+          "LOWER_LAST": [
+            8,
+            8
+          ]
+        }
+      },
+      "P1": {
+        "2": {
+          "rep": [
+            13,
+            16,
+            16
+          ],
+          "class": "NOT_FOLLOWS"
+        },
+        "3": {
+          "rep": [
+            16,
+            16,
+            16
+          ],
+          "class": "NOT_FOLLOWS"
+        }
+      },
+      "P2": {
+        "B1": [
+          195,
+          240
+        ],
+        "B3": [
+          237,
+          240
+        ]
+      },
+      "P3": {
+        "switch": 85,
+        "reverse": 0,
+        "sameRepeated": 11,
+        "sameSingle": 0,
+        "informative": 96,
+        "total": 96,
+        "dependentCorrect": 85
+      },
+      "P4": {
+        "same": 117,
+        "blockFirst": 0,
+        "blockLast": 3,
+        "direction": "FAVOURS_LAST",
+        "riskDifferenceCounterFirstMinusLast": 0.025,
+        "discordant": [
+          "CORE:I02:r060:n2:FIRST",
+          "CORE:I05:r060:n2:FIRST",
+          "CORE:I06:r060:n2:FIRST"
+        ]
+      },
+      "byItem": {
+        "I01": {
+          "B1": 24,
+          "B3": 30,
+          "P3": {
+            "switch": 10,
+            "reverse": 0,
+            "sameRepeated": 2,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 10
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I02": {
+          "B1": 25,
+          "B3": 29,
+          "P3": {
+            "switch": 8,
+            "reverse": 0,
+            "sameRepeated": 4,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 8
+          },
+          "n2": [
+            1,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I03": {
+          "B1": 24,
+          "B3": 30,
+          "P3": {
+            "switch": 11,
+            "reverse": 0,
+            "sameRepeated": 1,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 11
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I04": {
+          "B1": 24,
+          "B3": 30,
+          "P3": {
+            "switch": 12,
+            "reverse": 0,
+            "sameRepeated": 0,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 12
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I05": {
+          "B1": 25,
+          "B3": 29,
+          "P3": {
+            "switch": 12,
+            "reverse": 0,
+            "sameRepeated": 0,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 12
+          },
+          "n2": [
+            1,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I06": {
+          "B1": 25,
+          "B3": 29,
+          "P3": {
+            "switch": 12,
+            "reverse": 0,
+            "sameRepeated": 0,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 12
+          },
+          "n2": [
+            1,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I07": {
+          "B1": 24,
+          "B3": 30,
+          "P3": {
+            "switch": 11,
+            "reverse": 0,
+            "sameRepeated": 1,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 11
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        },
+        "I08": {
+          "B1": 24,
+          "B3": 30,
+          "P3": {
+            "switch": 9,
+            "reverse": 0,
+            "sameRepeated": 3,
+            "sameSingle": 0,
+            "informative": 12,
+            "total": 12,
+            "dependentCorrect": 9
+          },
+          "n2": [
+            2,
+            2,
+            2
+          ],
+          "n3": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "byCell": {
+        "0.60/4": {
+          "switch": 16,
+          "reverse": 0,
+          "sameRepeated": 0,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 16
+        },
+        "0.65/3": {
+          "switch": 16,
+          "reverse": 0,
+          "sameRepeated": 0,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 16
+        },
+        "0.70/2": {
+          "switch": 16,
+          "reverse": 0,
+          "sameRepeated": 0,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 16
+        },
+        "0.60/5": {
+          "switch": 14,
+          "reverse": 0,
+          "sameRepeated": 2,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 14
+        },
+        "0.65/5": {
+          "switch": 14,
+          "reverse": 0,
+          "sameRepeated": 2,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 14
+        },
+        "0.70/5": {
+          "switch": 9,
+          "reverse": 0,
+          "sameRepeated": 7,
+          "sameSingle": 0,
+          "informative": 16,
+          "total": 16,
+          "dependentCorrect": 9
+        }
+      },
+      "byOrder": {
+        "COUNTER_FIRST": {
+          "B1": 96,
+          "B3": 120,
+          "P3": {
+            "switch": 46,
+            "reverse": 0,
+            "sameRepeated": 2,
+            "sameSingle": 0,
+            "informative": 48,
+            "total": 48,
+            "dependentCorrect": 46
+          },
+          "n2": [
+            8,
+            8,
+            8
+          ],
+          "n3": [
+            8,
+            8,
+            8
+          ]
+        },
+        "COUNTER_LAST": {
+          "B1": 99,
+          "B3": 117,
+          "P3": {
+            "switch": 39,
+            "reverse": 0,
+            "sameRepeated": 9,
+            "sameSingle": 0,
+            "informative": 48,
+            "total": 48,
+            "dependentCorrect": 39
+          },
+          "n2": [
+            5,
+            8,
+            8
+          ],
+          "n3": [
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      "ruleAgreements": {
+        "B1": [
+          195,
+          240
+        ],
+        "B2": [
+          51,
+          240
+        ],
+        "B3": [
+          237,
+          240
+        ],
+        "B4": [
+          123,
+          240
+        ],
+        "B6": [
+          117,
+          240
+        ],
+        "B7": [
+          195,
+          208
+        ]
+      },
+      "grid": {
+        "0.60": [
+          0,
+          13,
+          16,
+          16,
+          16
+        ],
+        "0.65": [
+          0,
+          16,
+          16,
+          16,
+          16
+        ],
+        "0.70": [
+          0,
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "traces": {
+        "I01/0.60/COUNTER_FIRST": "01111",
+        "I01/0.60/COUNTER_LAST": "01111",
+        "I01/0.65/COUNTER_FIRST": "01111",
+        "I01/0.65/COUNTER_LAST": "01111",
+        "I01/0.70/COUNTER_FIRST": "01111",
+        "I01/0.70/COUNTER_LAST": "01111",
+        "I02/0.60/COUNTER_FIRST": "01111",
+        "I02/0.60/COUNTER_LAST": "00111",
+        "I02/0.65/COUNTER_FIRST": "01111",
+        "I02/0.65/COUNTER_LAST": "01111",
+        "I02/0.70/COUNTER_FIRST": "01111",
+        "I02/0.70/COUNTER_LAST": "01111",
+        "I03/0.60/COUNTER_FIRST": "01111",
+        "I03/0.60/COUNTER_LAST": "01111",
+        "I03/0.65/COUNTER_FIRST": "01111",
+        "I03/0.65/COUNTER_LAST": "01111",
+        "I03/0.70/COUNTER_FIRST": "01111",
+        "I03/0.70/COUNTER_LAST": "01111",
+        "I04/0.60/COUNTER_FIRST": "01111",
+        "I04/0.60/COUNTER_LAST": "01111",
+        "I04/0.65/COUNTER_FIRST": "01111",
+        "I04/0.65/COUNTER_LAST": "01111",
+        "I04/0.70/COUNTER_FIRST": "01111",
+        "I04/0.70/COUNTER_LAST": "01111",
+        "I05/0.60/COUNTER_FIRST": "01111",
+        "I05/0.60/COUNTER_LAST": "00111",
+        "I05/0.65/COUNTER_FIRST": "01111",
+        "I05/0.65/COUNTER_LAST": "01111",
+        "I05/0.70/COUNTER_FIRST": "01111",
+        "I05/0.70/COUNTER_LAST": "01111",
+        "I06/0.60/COUNTER_FIRST": "01111",
+        "I06/0.60/COUNTER_LAST": "00111",
+        "I06/0.65/COUNTER_FIRST": "01111",
+        "I06/0.65/COUNTER_LAST": "01111",
+        "I06/0.70/COUNTER_FIRST": "01111",
+        "I06/0.70/COUNTER_LAST": "01111",
+        "I07/0.60/COUNTER_FIRST": "01111",
+        "I07/0.60/COUNTER_LAST": "01111",
+        "I07/0.65/COUNTER_FIRST": "01111",
+        "I07/0.65/COUNTER_LAST": "01111",
+        "I07/0.70/COUNTER_FIRST": "01111",
+        "I07/0.70/COUNTER_LAST": "01111",
+        "I08/0.60/COUNTER_FIRST": "01111",
+        "I08/0.60/COUNTER_LAST": "01111",
+        "I08/0.65/COUNTER_FIRST": "01111",
+        "I08/0.65/COUNTER_LAST": "01111",
+        "I08/0.70/COUNTER_FIRST": "01111",
+        "I08/0.70/COUNTER_LAST": "01111"
+      },
+      "reversals": 0,
+      "hypotheses": {
+        "H1": false,
+        "H2": false,
+        "H3": true,
+        "H4": false
+      }
+    }
+  }
+}
