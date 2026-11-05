@@ -5,8 +5,16 @@ Repository public: https://github.com/ovidiuboticiu/ieab-behavioral-study-2026
 **Studiu descriptiv al alegerilor modelelor lingvistice în prezența unor surse independente și copiate (v0.4.3–v0.4.4).**
 
 **Autor uman:** Ovidiu Boticiu — cercetător independent, România.  
-**Statut:** cercetare experimentală închisă; raport tehnic destinat publicării, fără peer review uman.  
+**Statut:** cercetare experimentală închisă; raportul tehnic final este disponibil public în acest repository, fără peer review uman. Nu a fost depus încă pe Zenodo și nu are DOI.  
 **Originea proiectului:** cercetarea a început aproximativ la 5 octombrie potrivit autorului; primul commit verificat al repository-ului **original** este din **6 octombrie 2026**. După blocajul operațional, proiectul a fost continuat în `ieab-restart` din 31 octombrie. **Prima colectare comportamentală:** **2 noiembrie 2026**; nu trebuie confundată cu data începerii cercetării sau cu proba neutră de API din aceeași zi.
+
+## Raportul științific final (5 noiembrie 2026)
+
+- **[IEAB_Raport_Stiintific_Final.pdf](paper/IEAB_Raport_Stiintific_Final.pdf)** — versiunea finală aprobată pentru citire și citare, 19 pagini.
+- [IEAB_Raport_Stiintific_Final.md](paper/IEAB_Raport_Stiintific_Final.md) — sursa editabilă a raportului final, corespunzătoare PDF-ului.
+- `paper/IEAB_RAPORT_STIINTIFIC_v4_CRONOLOGIE_2026-11-05.md` — manuscris anterior, **depășit editorial**, păstrat numai pentru trasabilitate; nu este sursa PDF-ului final.
+
+Raportul public de pe GitHub nu reprezintă un articol acceptat prin peer review. Rezultatele experimentale și documentele înghețate nu au fost modificate pentru aceste corecții editoriale.
 
 ## Ce a fost testat
 
@@ -16,7 +24,7 @@ Cinci configurații locale de modele: Qwen3.5-4B, Gemma 4 E4B, Ministral 3 8B (e
 
 ## Conținutul pachetului public
 
-- `paper/` — manuscrisul științific în Markdown (sursă pentru versiunea PDF);
+- `paper/` — raportul final aprobat în PDF, sursa lui Markdown v7 și manuscrisul v4 păstrat numai ca versiune istorică;
 - `data/v043/` și `data/v044/` — cele cinci exporturi selectate, fără modificarea datelor;
 - `research/` — designul și documentele preregistrării originale relevante;
 - `implementation/` — analizorul original P1–P5, codul de intrare/execuție și cei 360 de stimuli fixați;
