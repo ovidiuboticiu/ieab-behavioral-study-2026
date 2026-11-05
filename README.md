@@ -8,6 +8,10 @@ Repository public: https://github.com/ovidiuboticiu/ieab-behavioral-study-2026
 **Statut:** cercetare experimentală închisă; raportul tehnic final este disponibil public în acest repository, fără peer review uman. Nu a fost depus încă pe Zenodo și nu are DOI.  
 **Originea proiectului:** cercetarea a început aproximativ la 5 octombrie potrivit autorului; primul commit verificat al repository-ului **original** este din **6 octombrie 2026**. După blocajul operațional, proiectul a fost continuat în `ieab-restart` din 31 octombrie. **Prima colectare comportamentală:** **2 noiembrie 2026**; nu trebuie confundată cu data începerii cercetării sau cu proba neutră de API din aceeași zi.
 
+## Citarea raportului
+
+Fișierul [`CITATION.cff`](CITATION.cff) descrie citarea recomandată pentru raportul tehnic IEAB, cu Ovidiu Boticiu ca autor uman. Nu există DOI sau peer review uman. Informațiile de versiune `v1.0.0` sunt pregătite pentru primul GitHub Release; publicarea efectivă a Release-ului se verifică separat. Nota aferentă: [`RELEASE_NOTES_v1.0.0.md`](RELEASE_NOTES_v1.0.0.md).
+
 ## Raportul științific final (5 noiembrie 2026)
 
 - **[IEAB_Raport_Stiintific_Final.pdf](paper/IEAB_Raport_Stiintific_Final.pdf)** — versiunea finală aprobată pentru citire și citare, 19 pagini.

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the IEAB technical research report using the preferred citation below."
+type: dataset
+title: "Independent Evidence Aggregation Boundary (IEAB): behavioral study and reproducibility corpus"
+authors:
+  - family-names: "Boticiu"
+    given-names: "Ovidiu"
+version: 1.0.0
+url: "https://github.com/ovidiuboticiu/ieab-behavioral-study-2026"
+repository-code: "https://github.com/ovidiuboticiu/ieab-behavioral-study-2026"
+abstract: "A public reproducibility corpus and descriptive report of five local language-model configurations on source independence, copied evidence and source reliability; without human peer review."
+keywords:
+  - language models
+  - evidence aggregation
+  - source independence
+  - copied evidence
+  - reliability
+  - reproducibility
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "Boticiu"
+      given-names: "Ovidiu"
+  title: "IEAB v0.4.3–v0.4.4: Profiluri comportamentale în agregarea dovezilor independente și copiate"
+  year: 2026
+  url: "https://github.com/ovidiuboticiu/ieab-behavioral-study-2026/blob/main/paper/IEAB_Raport_Stiintific_Final.pdf"
