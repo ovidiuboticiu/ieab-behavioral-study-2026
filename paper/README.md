@@ -6,4 +6,4 @@
 
 **Versiune anterioară:** `IEAB_RAPORT_STIINTIFIC_v4_CRONOLOGIE_2026-11-05.md` — păstrată fără modificări pentru istoricul editorial, dar **înlocuită de v7**; nu se recomandă citarea acesteia în locul raportului final.
 
-Nu s-au modificat designul, datele experimentale sau ipotezele preregistrate. Documentul este un raport tehnic descriptiv făcut public pe GitHub, nu o publicație evaluată prin peer review uman și nu un depozit Zenodo cu DOI.
+**Licență:** CC BY 4.0 (pentru raport și sursele documentare), conform [LICENSES.md](../LICENSES.md). Nu s-au modificat designul, datele experimentale sau ipotezele preregistrate. Documentul este un raport tehnic descriptiv făcut public pe GitHub, nu o publicație evaluată prin peer review uman și nu un depozit Zenodo cu DOI.
