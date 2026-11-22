@@ -14,7 +14,7 @@ Fișierul [`CITATION.cff`](CITATION.cff) descrie citarea recomandată pentru rap
 
 ## Raportul științific final (5 noiembrie 2026)
 
-- **[IEAB_Raport_Stiintific_Final.pdf](paper/IEAB_Raport_Stiintific_Final.pdf)** — versiunea finală aprobată pentru citire și citare, 19 pagini.
+- **[IEAB_Raport_Stiintific_Final.pdf](paper/IEAB_Raport_Stiintific_Final.pdf)** — versiunea finală aprobată pentru citire și citare, 18 pagini (v1.0.1: corectură editorială a formatării, conținut neschimbat).
 - [IEAB_Raport_Stiintific_Final.md](paper/IEAB_Raport_Stiintific_Final.md) — sursa editabilă a raportului final, corespunzătoare PDF-ului.
 - `paper/IEAB_RAPORT_STIINTIFIC_v4_CRONOLOGIE_2026-11-05.md` — manuscris anterior, **depășit editorial**, păstrat numai pentru trasabilitate; nu este sursa PDF-ului final.
 

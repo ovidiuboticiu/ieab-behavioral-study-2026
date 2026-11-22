@@ -5,7 +5,7 @@ title: "Independent Evidence Aggregation Boundary (IEAB): behavioral study and r
 authors:
   - family-names: "Boticiu"
     given-names: "Ovidiu"
-version: 1.0.0
+version: 1.0.1
 url: "https://github.com/ovidiuboticiu/ieab-behavioral-study-2026"
 repository-code: "https://github.com/ovidiuboticiu/ieab-behavioral-study-2026"
 abstract: "A public reproducibility corpus and descriptive report of five local language-model configurations on source independence, copied evidence and source reliability; without human peer review."

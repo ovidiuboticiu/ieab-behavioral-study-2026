@@ -66,9 +66,9 @@ $$
 
 Alegerea normativă este partea cu `n` observații când `O_rep > 1` și sursa unică 0,80 când `O_rep < 1`. Nicio celulă CORE nu produce egalitate normativă. Grila folosește cele trei valori ale lui `r` (0,60; 0,65; 0,70) și cele cinci valori ale lui `n` (1–5). Pragurile de trecere la partea cu `n` observații sunt `n=4`, `n=3` și, respectiv, `n=2`.
 
-\Needspace{12\baselineskip}
+\Needspace{10\baselineskip}
 
-**Tabel. 1. Decizia normativă pentru două și trei observații**
+**Tabelul 1. Decizia normativă pentru două și trei observații**
 
 | Număr de observații independente | r=0,60 | r=0,65 | r=0,70 |
 |:---:|:---:|:---:|:---:|
@@ -108,7 +108,7 @@ Pentru fiecare model v0.4.4 s-a păstrat un jurnal append-only cu 2 evenimente `
 
 ### 3.4 Cronologie și statutul pre-specificării
 
-**Originea proiectului și continuitatea sa:** potrivit relatării autorului, cercetarea IEAB a început în jurul datei de 5 octombrie 2026; această dată aproximativă nu a fost verificată printr-un artefact contemporan. **Primul reper Git verificat este 6 octombrie 2026, ora 19:06:16 în România** (commit `14e1ed32b48005ddbf69f708b9619620d5b75381`, „Initialize IEAB repository”), în repository-ul original \href{https://github.com/ovidiuboticiu/independent-evidence-aggregation-boundary}{repository-ul IEAB original}. Între 6 și 31 octombrie au fost dezvoltate și revizuite designul, generatorul și controalele tehnice, însă colectarea comportamentală IEAB nu a început. Infrastructura de verificare și audit s-a complicat până la un blocaj operațional, descris în raportul istoric `PROJECT_CLOSURE_2026-10-31.md`. Autorul a identificat problema de proporționalitate a procedurilor și a decis oprirea infrastructurii vechi, nu abandonarea întrebării științifice.
+**Originea proiectului și continuitatea sa:** potrivit relatării autorului, cercetarea IEAB a început în jurul datei de 5 octombrie 2026; această dată aproximativă nu a fost verificată printr-un artefact contemporan. **Primul reper Git verificat este 6 octombrie 2026, ora 19:06:16 în România** (commit \nolinkurl{14e1ed32b48005ddbf69f708b9619620d5b75381}, „Initialize IEAB repository”), în repository-ul original \href{https://github.com/ovidiuboticiu/independent-evidence-aggregation-boundary}{repository-ul IEAB original}. Între 6 și 31 octombrie au fost dezvoltate și revizuite designul, generatorul și controalele tehnice, însă colectarea comportamentală IEAB nu a început. Infrastructura de verificare și audit s-a complicat până la un blocaj operațional, descris în raportul istoric `PROJECT_CLOSURE_2026-10-31.md`. Autorul a identificat problema de proporționalitate a procedurilor și a decis oprirea infrastructurii vechi, nu abandonarea întrebării științifice.
 
 **Reorganizare, nu începutul unui nou studiu:** la **31 octombrie 2026**, autorul a creat repository-ul privat `ovidiuboticiu/ieab-restart` și a recuperat fără modificări 15 fișiere științifice/deterministe, cu proveniență verificată. Runnerul live din proiectul anterior nu a fost importat. Acest pas a simplificat execuția aceleiași cercetări.
 
@@ -128,17 +128,15 @@ B1 și B3 diferă pe **48 din 240** de rânduri CORE, dar coincid pe celelalte 1
 
 Predicțiile v0.4.4 au fost: **H1**, configurația mare iese din `NOT_FOLLOWS` la `n=2`; **H2**, acordul B1 este cel puțin egal cu B3; **H3**, proporția P3 pe perechile informative o depășește pe cea a configurației mici din aceeași familie; **H4**, direcția efectului P4 rămâne aceeași în familie. Fiecare predicție este evaluată separat pentru fiecare dintre cele două configurații mari, după regulile fixe dinainte de colectare. Nu au fost folosite teste statistice care să trateze rândurile drept independente.
 
-\Needspace{21\baselineskip}
+\Needspace{15\baselineskip}
 
 ## 4. Rezultate
 
-\Needspace{6\baselineskip}
+\Needspace{15\baselineskip}
 
 ### 4.1 Verificările de bază: ancorele P5
 
-\Needspace{12\baselineskip}
-
-**Tabel. 2. Acordul normativ pe ancore**
+**Tabelul 2. Acordul normativ pe ancore**
 
 | Configurație | A1 | A2 | A2: 0,80 prima | A2: 0,80 ultima |
 |---|---:|---:|---:|---:|
@@ -152,13 +150,11 @@ Predicțiile v0.4.4 au fost: **H1**, configurația mare iese din `NOT_FOLLOWS` l
 
 Toate configurațiile răspund normativ la A1, dar **toate greșesc cel puțin o ancoră A2**. Conform designului, erorile din CORE nu pot fi atribuite exclusiv integrării mai multor observații, deoarece există erori și în comparația mai simplă între două surse.
 
-\Needspace{6\baselineskip}
+\Needspace{15\baselineskip}
 
 ### 4.2 Pragurile normative și regula numărării: P1 și P2
 
-\Needspace{12\baselineskip}
-
-**Tabel. 3. Numărul alegerilor grupului cu `n` observații la pragurile P1**
+**Tabelul 3. Numărul alegerilor grupului cu `n` observații la pragurile P1**
 
 | Configurație | n=2: alegeri repetat | Clasă n=2 | n=3: alegeri repetat | Clasă n=3 |
 |---|---|---|---|---|
@@ -172,9 +168,9 @@ Toate configurațiile răspund normativ la A1, dar **toate greșesc cel puțin o
 
 Nicio configurație nu este clasificată `FOLLOWS` la `n=2` sau `n=3`. Qwen 9B obține `INTERMEDIATE` la `n=2`, ceea ce satisface H1, dar **nu echivalează** cu urmarea completă a pragului.
 
-\Needspace{12\baselineskip}
+\Needspace{10\baselineskip}
 
-**Tabel. 4. Acordul CORE cu norma B1 și numărarea B3**
+**Tabelul 4. Acordul CORE cu norma B1 și numărarea B3**
 
 | Configurație | Acord B1 / 240 | Acord B3 / 240 | Acord B3 / 48 discriminante |
 |---|---:|---:|---:|
@@ -188,13 +184,13 @@ Nicio configurație nu este clasificată `FOLLOWS` la `n=2` sau `n=3`. Qwen 9B o
 
 La Qwen 9B, 25/48 alegeri corespund B3 și 23/48 corespund B1: diferența este mică și nu susține o dominanță puternică a numărării. La Gemma 12B, diferența este 45/48 versus 3/48. Deși acordul global cu B1 crește între E4B și 12B (174 → 195), pe **cele 48 de cazuri discriminante** acordul cu B1 scade (6 → 3); creșterea totală provine din cazurile unde B1 și B3 sunt de acord. Nu se justifică descrierea acestei creșteri agregate drept progres al utilizării pragurilor de fiabilitate.
 
-\Needspace{17\baselineskip}
+\Needspace{13\baselineskip}
 
 ### 4.3 Reactivitatea la copierea explicită: P3
 
-\Needspace{12\baselineskip}
+\Needspace{10\baselineskip}
 
-**Tabel. 5. Cele 96 de perechi CORE–DEPENDENT per configurație**
+**Tabelul 5. Cele 96 de perechi CORE–DEPENDENT per configurație**
 
 | Configurație | Schimbări / informative | Schimbări / toate cele 96 | Acord DEPENDENT / 96 |
 |---|---:|---:|---:|
@@ -210,9 +206,9 @@ La Qwen 9B, 25/48 alegeri corespund B3 și 23/48 corespund B1: diferența este m
 
 Pentru **Gemma 12B**, diferența față de E4B este observată la toți cei opt itemi: cele 12 perechi/item au între 8 și 12 schimbări normative în varianta 12B, față de 1–3 în varianta E4B. Pentru **Qwen**, numărul brut de schimbări crește la patru itemi, rămâne egal la unul și scade la trei: răspunsul este eterogen. Pe cele șase celule DEPENDENT, Gemma 12B are 16/16 schimbări în fiecare dintre cele trei celule de prag (`r=0,60;n=4`, `r=0,65;n=3`, `r=0,70;n=2`), dar numai 14/16, 14/16 și 9/16 la cele trei celule cu `n=5`. În consecință, sensibilitatea ridicată la copiere nu reprezintă agregare normativă perfectă.
 
-\Needspace{12\baselineskip}
+\Needspace{10\baselineskip}
 
-**Tabel. 6. Schimbări normative P3 în funcție de poziția sursei 0,80**
+**Tabelul 6. Schimbări normative P3 în funcție de poziția sursei 0,80**
 
 | Configurație | 0,80 prima / 48 | 0,80 ultima / 48 |
 |---|---:|---:|
@@ -226,16 +222,14 @@ Pentru **Gemma 12B**, diferența față de E4B este observată la toți cei opt 
 
 Qwen 9B are mai puține schimbări decât Qwen 4B atunci când 0,80 este prezentată prima (30 versus 35), dar mai multe atunci când este ultima (13 versus 0). Așadar, confirmarea H3 la Qwen **nu** înseamnă îmbunătățire în ambele ordini. Gemma 12B depășește E4B în ambele ordini, fără ca diferența de ordine să dispară complet.
 
-\Needspace{6\baselineskip}
+\Needspace{15\baselineskip}
 
 ### 4.4 Influența poziției blocurilor de dovezi: P4
 
-\Needspace{12\baselineskip}
-
-**Tabel. 7. Perechi CORE cu ordinea dovezilor inversată; total 120 perechi/model**
+**Tabelul 7. Perechi CORE cu ordinea dovezilor inversată; total 120 perechi/model**
 
 | Configurație | Aceeași alegere | Repetatul favorizat primul | Repetatul favorizat ultimul | Direcție |
-|---|---:|---:|---:|---|
+|--------------------|-----------:|-------------:|-------------:|------------------|
 | Qwen3.5-4B | 92 | 28 | 0 | FAVOURS_FIRST |
 | Gemma 4 E4B (run2) | 90 | 30 | 0 | FAVOURS_FIRST |
 | Ministral 3 8B | 85 | 2 | 33 | FAVOURS_LAST |
@@ -246,13 +240,11 @@ Qwen 9B are mai puține schimbări decât Qwen 4B atunci când 0,80 este prezent
 
 Pentru Gemma 12B, 117 din 120 de perechi sunt identice, iar direcția `FAVOURS_LAST` este determinată de trei perechi discordante (diferență netă 2,5 puncte procentuale). Nu este demonstrată o strategie generală de recență. Același rezultat categorial P4 la Qwen 9B se bazează pe un profil diferit, 9 versus 6 discordante.
 
-\Needspace{6\baselineskip}
+\Needspace{15\baselineskip}
 
 ### 4.5 Predicțiile H1–H4 din extensia v0.4.4
 
-\Needspace{17\baselineskip}
-
-**Tabel. 8. Aplicarea criteriilor prospectiv documentate în Git, separat pentru fiecare configurație mare**
+**Tabelul 8. Aplicarea criteriilor prospectiv documentate în Git, separat pentru fiecare configurație mare**
 
 | Predicție și criteriu | Qwen3.5-9B | Gemma 4 12B |
 |---|---|---|
@@ -317,13 +309,13 @@ Aceste limite reduc **forța interpretării**, nu corectitudinea numărătorilor
 
 **Surse canonice și diseminare:** etapa inițială se găsește în \href{https://github.com/ovidiuboticiu/independent-evidence-aggregation-boundary}{repository-ul IEAB original} (arhivă istorică privată; închisă operațional la 31 octombrie). Etapa de continuare și colectare se găsește în `https://github.com/ovidiuboticiu/ieab-restart` (privată la data redactării). Pachetul public distinct pentru raport, date și cod este disponibil la `https://github.com/ovidiuboticiu/ieab-behavioral-study-2026`. Pentru a reproduce rezultatele din date, un evaluator autorizat are nevoie de design, stimuli, ordine, exporturi, analizor și regulile de selecție a rulărilor.
 
-- **Inițializare IEAB original:** `14e1ed32b48005ddbf69f708b9619620d5b75381`, 6 octombrie 2026.
+- **Inițializare IEAB original:** \nolinkurl{14e1ed32b48005ddbf69f708b9619620d5b75381}, 6 octombrie 2026.
 - **Închidere operațională original:** `PROJECT_CLOSURE_2026-10-31.md`, 31 octombrie 2026.
-- **Import în IEAB Restart:** `48106108da00146d87e3b99832bb62c9173e2066`, 31 octombrie 2026.
-- **Freeze v0.4.3:** `e7f84e2fff5cefafeac1e4f2369e5242b14b3060`.
-- **Freeze v0.4.4:** `3f418bb6b11a04119508ada24a634c4df46c8708`.
-- **Commitul închiderii experimentale:** `1e8a30938704a255521ab8316a9c4eefd1fa1042`.
-- **Commitul arhivării auditului și manuscrisului inițial:** {\ttfamily 12d8e7bd61\allowbreak e297cced03\allowbreak aa5b335095\allowbreak 5cc908a5bf}.
+- **Import în IEAB Restart:** \nolinkurl{48106108da00146d87e3b99832bb62c9173e2066}, 31 octombrie 2026.
+- **Freeze v0.4.3:** \nolinkurl{e7f84e2fff5cefafeac1e4f2369e5242b14b3060}.
+- **Freeze v0.4.4:** \nolinkurl{3f418bb6b11a04119508ada24a634c4df46c8708}.
+- **Commitul închiderii experimentale:** \nolinkurl{1e8a30938704a255521ab8316a9c4eefd1fa1042}.
+- **Commitul arhivării auditului și manuscrisului inițial:** \nolinkurl{12d8e7bd61e297cced03aa5b3350955cc908a5bf}.
 - **Exporturi și rapoarte v0.4.3:** `results/ieab-v0.4.3-2026-11-03/`.
 - **Exporturi și rapoarte v0.4.4:** `results/ieab-v0.4.4-2026-11-05/`.
 - **Manuscrisul inițial și auditul:** `results/ieab-final-2026-11-05/`.
@@ -345,7 +337,7 @@ IEAB v0.4.3–v0.4.4 furnizează o caracterizare descriptivă, recalculabilă, a
 
 **Contribuția științifică este incrementală și locală:** un instrument finit cu normă explicită, comparații controlate între condiții și profiluri comportamentale documentate, cu limitele declarate. Studiul nu identifică mecanisme interne, nu demonstrează efecte cauzale ale dimensiunii și nu validează generalizarea la sisteme RAG ori agenți. Pentru aceste afirmații descriptive, experimentul este închis și nu este necesară o nouă rulare a modelelor. Întrebările despre repetabilitate, probabilități raportate ori manipularea separată a indiciilor ar necesita cercetări distincte, cu design prospectiv nou.
 
-\Needspace{6\baselineskip}
+\Needspace{12\baselineskip}
 
 ## Bibliografie
 
@@ -381,9 +373,9 @@ Zhou, R., Huang, H., Zheng, Y., Luo, J., Li, Y., Liu, Y. și Du, D. (2026). Evid
 
 ## Anexă. Matricea completă a schimbărilor P3, pe cele șase celule de dependență
 
-\Needspace{12\baselineskip}
+\Needspace{10\baselineskip}
 
-**Tabel. A1. Schimbări normative / perechi informative în fiecare celulă**
+**Tabelul A1. Schimbări normative / perechi informative în fiecare celulă**
 
 | r / n | Qwen 4B | Gemma E4B | Ministral 8B | Qwen 9B | Gemma 12B |
 |---|---:|---:|---:|---:|---:|

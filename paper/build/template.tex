@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+% --- Standard IEAB v7: A4 portret, margini 2,5 cm, Times New Roman 12 pt (Tinos, metric identic), spațiere 1,5 ---
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Tinos}
+\usepackage{polyglossia}
+\setdefaultlanguage{romanian}
+\usepackage{amsmath,amssymb}
+\usepackage{unicode-math}
+\usepackage{setspace}
+% 1,5 rânduri în sens Word: 1,5 x înălțimea unui rând simplu Times (1,15 em) = 20,7 pt la 12 pt
+\setstretch{1.43}
+\setlength{\parindent}{1.27cm}
+\setlength{\parskip}{0pt}
+\usepackage{indentfirst}
+\usepackage{needspace}
+\usepackage{longtable,booktabs,array,calc}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries\centering}{}{0pt}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{}{0pt}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{}{0pt}{}
+\titlespacing{\section}{0pt}{2.2ex plus .5ex}{1.4ex}
+\titlespacing{\subsection}{0pt}{1.8ex plus .5ex}{1.0ex}
+\setcounter{secnumdepth}{-2}
+\setcounter{tocdepth}{2}
+% Tabele: spațiere simplă, rânduri ușor aerisite (standard IEAB v7, decizie de aplicare)
+\AtBeginEnvironment{longtable}{\singlespacing\small}
+\renewcommand{\arraystretch}{1.35}
+\setlength{\LTpre}{0.6\baselineskip}
+\setlength{\LTpost}{0.6\baselineskip}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+\setlength{\emergencystretch}{3em}
+\renewcommand{\_}{\textunderscore\allowbreak}
+\widowpenalty=10000
+\clubpenalty=10000
+\hypersetup{pdftitle={$title$},pdfauthor={$author$},pdflang={ro-RO}}
+\begin{document}
+\pagestyle{plain}
+\begin{center}
+\vspace*{3cm}
+{\bfseries RAPORT TEHNIC DE CERCETARE\par}
+\vspace{2.2cm}
+{\large\bfseries INDEPENDENT EVIDENCE AGGREGATION BOUNDARY\par (IEAB)\par}
+\vspace{1cm}
+{\bfseries $subtitle$\par}
+\vspace{1.5cm}
+Versiunile experimentale v0.4.3--v0.4.4\par
+\vspace{2cm}
+{\bfseries $author$\par}
+Cercetător independent, România\par
+\vfill
+$date$\par
+{\small Manuscris tehnic descriptiv, fără evaluare inter pares umană\par}
+\end{center}
+\clearpage
+{\singlespacing\tableofcontents}
+\clearpage
+$body$
+\end{document}
